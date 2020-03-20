@@ -3,7 +3,7 @@ Description=Nvidia Script
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/bin/StopNvidiaOnArch.sh
+ExecStart=/bin/bash /usr/bin/StopNvidiaInArch.sh
 
 [Install]
 WantedBy=multi-user.target
