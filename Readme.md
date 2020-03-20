@@ -30,7 +30,8 @@
  > sudo systemctl start StopNvidiaInArch.service 
  - To check The status of the service 
  > sudo systemctl status StopNvidiaInArch.service
-
+- **Output Of this status command**
+![systemctlstatus](images/systemctlstatus output.png)
 ## Reference List
 
 - https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU
