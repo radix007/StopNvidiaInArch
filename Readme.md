@@ -2,7 +2,7 @@
 
 ## For Discrete Nvidia GPU 
 
--  Note : This is for when you want to stop Nvidia GPU on your Arch/Manjaro Linux completely . 
+-  **This is for when you want to stop Nvidia GPU in your Arch/Manjaro Linux completely** 
 
 
 - I am using Dell G3 (Nvidia Geforce GTX 1050) 
