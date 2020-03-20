@@ -2,12 +2,12 @@
 
 ## For Discrete Nvidia GPU 
 
--  Note : This is For when you want to stop Nvidia GPU on your Arch/Manjaro Linux completely
+-  Note : This is for when you want to stop Nvidia GPU on your Arch/Manjaro Linux completely . 
 
 
-- I Am Using Dell G3 (Nvidia Geforce Gtx 1050) 
+- I am using Dell G3 (Nvidia Geforce GTX 1050) 
 
-- This Guide will Tell You How To Make The contents of this repo  run on startup so that you will not have to run it again and again on bootup . 
+- This Guide will tell you how to make the contents of this repo run on startup so that you will not have to run it again and again on bootup . 
 
 - This method will increase battery performance .
 - Also any lag and bootup issues will also be fixed after doing this .
