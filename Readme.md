@@ -1,6 +1,6 @@
-#Stop Nvidia In Arch And Manjaro
+# Stop Nvidia In Arch And Manjaro
 
-##For Discrete Nvidia GPU 
+## For Discrete Nvidia GPU 
 
 -  Note : This is For when you want to stop Nvidia GPU on your Arch/Manjaro Linux completely
 
@@ -13,7 +13,7 @@
 - Also any lag and bootup issues will also be fixed after doing this .
 - You can download the same bash script from [The arch wiki](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
 
-##Steps::
+## Steps::
 - Download the bash file and then copy it to /usr/bin/ 
 - Now Make this file executable
 - To Make Any file executable just do this chmod +x filename   
@@ -29,7 +29,7 @@
  - To check The status of the service 
  > sudo systemctl status StopNvidiaInArch.service
 
-##Reference List
+## Reference List
 
 - https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU
 - https://wiki.archlinux.org/index.php/NVIDIA_Optimus
