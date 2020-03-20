@@ -26,7 +26,7 @@
  - Output for the above command will be :  
  > Created symlink /etc/systemd/system/multi-user.target.wants/StopNvidiaInArch.service → /etc/systemd/system/StopNvidiaInArch.service.
 
-- To start it right now just enter 
+- To start it right now  
  > sudo systemctl start StopNvidiaInArch.service 
  - To check The status of the service 
  > sudo systemctl status StopNvidiaInArch.service
