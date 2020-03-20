@@ -14,13 +14,12 @@
 - You can download the same bash script from [The arch wiki](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
 
 ## Steps::
-- Download the bash file and then copy it to /usr/bin/ 
+- After cloning the files , copy the **StopNvidiaInArch.sh**  to /usr/bin/ 
 - Now Make this file executable
-- To Make Any file executable just do this chmod +x filename   
-- COMMAND TO MAKE THIS FILE EXECUTABLE 
+- To Make Any file executable just do this  **chmod +x filename** . In This Case :
  > chmod +x StopNvidiaInArch.sh 
  - Now We have To Create and enable a systemd service 
- - To Do this Just Copy The File You Have Downloaded(Name of File is StopNvidiaInArch.service) To the directory /etc/systemd/system/   
+ - To Do this Just Copy The File You Have Downloaded(Name of File is **StopNvidiaInArch.service**) To the directory /etc/systemd/system/   
  
  - Now you Just have to enable the service on startup . To do that just enter the following commands.
  > sudo systemctl enable StopNvidiaInArch.service 
