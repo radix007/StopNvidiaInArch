@@ -11,8 +11,7 @@
 
 - This method will increase battery performance .
 - Also any lag and bootup issues will also be fixed after doing this .
-- You can download the same bash script from The arch wiki 
-https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU
+- You can download the same bash script from [The arch wiki](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
 
 ##Steps::
 - Download the bash file and then copy it to /usr/bin/ 
