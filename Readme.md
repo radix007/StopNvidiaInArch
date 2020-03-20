@@ -34,7 +34,7 @@
 - https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU
 - https://wiki.archlinux.org/index.php/NVIDIA_Optimus
 - https://wiki.archlinux.org/index.php/Systemd
-
+- https://raw.githubusercontent.com/mkottman/acpi_call/master/examples/turn_off_gpu.sh
 
 
 
