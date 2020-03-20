@@ -22,7 +22,10 @@
  - To Do this Just Copy The File You Have Downloaded(Name of File is **StopNvidiaInArch.service**) To the directory /etc/systemd/system/   
  
  - Now you Just have to enable the service on startup . To do that just enter the following commands.
- > sudo systemctl enable StopNvidiaInArch.service 
+ > sudo systemctl enable StopNvidiaInArch.service
+ - Output for the above command will be :  
+ > Created symlink /etc/systemd/system/multi-user.target.wants/StopNvidiaInArch.service → /etc/systemd/system/StopNvidiaInArch.service.
+
 - To start it right now just enter 
  > sudo systemctl start StopNvidiaInArch.service 
  - To check The status of the service 
