@@ -1,0 +1,9 @@
+[Unit]
+Description=Nvidia Script
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/StopNvidiaOnArch.sh
+
+[Install]
+WantedBy=multi-user.target
