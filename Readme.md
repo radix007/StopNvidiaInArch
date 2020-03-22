@@ -27,11 +27,12 @@
  > Created symlink /etc/systemd/system/multi-user.target.wants/StopNvidiaInArch.service → /etc/systemd/system/StopNvidiaInArch.service.
 
 - To start it right now  
- > sudo systemctl start StopNvidiaInArch.service 
- - To check The status of the service 
+> sudo systemctl start StopNvidiaInArch.service
+ - To check the status of the service 
  > sudo systemctl status StopNvidiaInArch.service
-- **Output Of this status command**
+- **Output Of status**
 ![systemctlstatus](images/systemctlstatus.png)
+
 ## Reference List
 
 - https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU
@@ -39,7 +40,7 @@
 - https://wiki.archlinux.org/index.php/Systemd
 - https://raw.githubusercontent.com/mkottman/acpi_call/master/examples/turn_off_gpu.sh
 
-
+## Pull Request Welcomed
 
 
 
