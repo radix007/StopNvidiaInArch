@@ -12,8 +12,25 @@
 - This method will increase battery performance .
 - Also any lag and bootup issues will also be fixed after doing this .
 - You can download the same bash script from [The arch wiki](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
+- **You can use either of the methods . The Recommended one is by using the DisableNvidia.sh .**
+## Steps If You Use DisableNvidia.sh ::
 
-## Steps::
+
+- After cloning , go to the downloaded folder .
+- Open a terminal there.
+- Enter the following  in the terminal ::
+  >chmod +x DisableNvidia.sh
+
+- To run the script just enter this :: 
+  > ./DisableNvidia.sh
+
+- You will be asked to enter your password and once you enter it your Nvidia GPU will be disabled permanently . 
+    
+- You should see something like [this](images/systemctlstatus.png) .
+
+
+
+## Steps If You Don't Want To Use DisableNvidia.sh ::
 - After cloning the files , copy the **StopNvidiaInArch.sh**  to /usr/bin/ 
 - Now Make this file executable
 - To Make Any file executable just do this  **chmod +x filename** . In This Case :
@@ -32,6 +49,7 @@
  > sudo systemctl status StopNvidiaInArch.service
 - **Output Of status**
 ![systemctlstatus](images/systemctlstatus.png)
+
 
 ## Reference List
 
