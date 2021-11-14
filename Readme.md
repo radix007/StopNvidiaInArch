@@ -12,7 +12,7 @@
 - You can download the same bash script from [the Arch Wiki.](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
 - **You can use either of the methods. The recommended one is DisableNvidia.sh.**
 
-  > ### Steps for DisableNvidia.sh ::
+### Steps if you want to use DisableNvidia.sh ::
 
 - After cloning, go to the downloaded folder. Open a terminal there.
 - Enter the following in the terminal ::
@@ -30,7 +30,7 @@
 - You will be asked to enter your password and once you enter it your Nvidia GPU will be disabled permanently .
 - You should see something like [this](images/systemctlstatus.png) .
 
-## Steps if don't want to use DisableNvidia.sh ::
+### Steps if you don't want to use DisableNvidia.sh ::
 
 - After cloning the files, copy the **StopNvidiaInArch.sh** to /usr/bin/
 - Now make this file executable
