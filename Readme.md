@@ -8,7 +8,7 @@
 
 - This method will increase the battery's performance.
 - Also, any lag and bootup issues will be fixed after doing this.
-- This guide will help you automate Arch Linux's wiki's script.
+- This guide will help you automate Arch Linux's wiki script.
 - You can download the same bash script from [the Arch Wiki.](https://wiki.archlinux.org/index.php/Hybrid_graphics#Fully_Power_Down_Discrete_GPU "arch wiki")
 - **You can use either of the methods. The recommended one is DisableNvidia.sh.**
 
