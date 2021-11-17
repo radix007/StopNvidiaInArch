@@ -83,4 +83,4 @@ Please check out the [contributing.md](Contributing.md) guide on how you can act
 
 # License ![GitHub](https://img.shields.io/badge/license-GPL--3.0%20License%20-blue)
 
-This project is licensed under the GNU General Public License v3.0 - see the [License.md](https://github.com/radix007/ StopNvidiaInArch/blob/master/LICENSE) file for more details.
+This project is licensed under the GNU General Public License v3.0 - see the [License.md](https://github.com/radix007/StopNvidiaInArch/blob/master/LICENSE) file for more details.
